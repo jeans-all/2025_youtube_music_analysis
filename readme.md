@@ -46,7 +46,7 @@ print("Setup Complete!")
 print(f"Dataset Shape: {df.shape}")
 print(f'Columns: {df.dtypes}')
 print("\n📊 First 5 Rows:")
-display(df.head(1))
+print(df.head(1))
 ```
 
     Setup Complete!
@@ -69,144 +69,9 @@ display(df.head(1))
     📊 First 5 Rows:
     
 
-
-
-  <div id="df-3c29ea64-a096-402a-8cf5-5bde5ab0c539" class="colab-df-container">
-    <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>title</th>
-      <th>fulltitle</th>
-      <th>description</th>
-      <th>view_count</th>
-      <th>categories</th>
-      <th>tags</th>
-      <th>duration</th>
-      <th>duration_string</th>
-      <th>live_status</th>
-      <th>thumbnail</th>
-      <th>channel</th>
-      <th>channel_url</th>
-      <th>channel_follower_count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>ROSÉ &amp; Bruno Mars - APT. (Official Music Video)</td>
-      <td>ROSÉ &amp; Bruno Mars - APT. (Official Music Video)</td>
-      <td>ROSÉ &amp; Bruno Mars - APT.\nDownload/stream: ht...</td>
-      <td>2009014557</td>
-      <td>Music</td>
-      <td>YG Entertainment;YG;와이지;K-pop;BLACKPINK;블랙핑크;블...</td>
-      <td>173</td>
-      <td>2:53</td>
-      <td>False</td>
-      <td>https://i.ytimg.com/vi_webp/ekr2nIex040/maxres...</td>
-      <td>ROSÉ</td>
-      <td>https://www.youtube.com/channel/UCBo1hnzxV9rz3...</td>
-      <td>19200000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-3c29ea64-a096-402a-8cf5-5bde5ab0c539')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-3c29ea64-a096-402a-8cf5-5bde5ab0c539 button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-3c29ea64-a096-402a-8cf5-5bde5ab0c539');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-    </div>
-  </div>
+| | title | fulltitle | description | view_count | categories | tags | duration | duration_string | live_status | thumbnail | channel | channel_url | channel_follower_count |
+|---:|:---|:---|:---|---:|:---|:---|---:|:---|:---|:---|:---|:---|---:|
+| 0 | ROSÉ & Bruno Mars - APT. (Official Music Video) | ROSÉ & Bruno Mars - APT. (Official Music Video) | ROSÉ & Bruno Mars - APT.<br>Download/stream: ht... | 2009014557 | Music | YG Entertainment;YG;와이지;K-pop;BLACKPINK;블랙핑크;블... | 173 | 2:53 | False | https://i.ytimg.com/vi_webp/ekr2nIex040/maxres... | ROSÉ | https://www.youtube.com/channel/UCBo1hnzxV9rz3... | 19200000 |
 
 
 
@@ -1846,3 +1711,4 @@ YouTube Music success is not one-size-fits-all. This analysis reveals a nuanced 
 The most important insight is contextual strategy: understand where you are in the ecosystem (channel size, content type, audience maturity) and optimize for metrics that matter at that stage. Small channels should chase efficiency and virality; large channels should leverage consistency and volume; everyone should question whether "industry standard" practices actually serve their specific goals.
 
 Success in competitive digital media isn't about doing what everyone else does—it's about understanding the structural dynamics and finding your strategic advantage within them.
+
